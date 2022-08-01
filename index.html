@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>HTML Carousel</title>
+
+    <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+
+    <div class="slideshow-container fade">
+        <div class="containers">
+            <img style="height: 100%; width:100%"
+                src="https://www.vapeking.co.za/images/promo/8/processed-01f63f54-7379-4b86-ad71-8a6892cecbd5_x6XiQUJa.webp">
+        </div>
+        <div class="containers">
+            <img style="height: 100%; width:100%" src="https://www.vapeking.co.za/images/promo/9/xrosnano.webp">
+        </div>
+        <div class="containers">
+            <img style="height: 100%; width:100%" src="https://www.vapeking.co.za/images/promo/9/Untitled_design.webp">
+        </div>
+        <div class="containers">
+            <img style="height: 100%; width:100%"
+                src="https://www.vapeking.co.za/images/promo/9/41c2bf0a8c4c3d5bfec52dee38a90ef.webp">
+        </div>
+
+        <!-- Next and previous buttons -->
+        <div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <!-- The dots/circles -->
+        <div class="dots-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+    </div>
+
+
+    <script src="logic.js" defer></script>
+
+</body>
+
+</html>
